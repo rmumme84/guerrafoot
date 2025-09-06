@@ -1,0 +1,291 @@
+{
+  "Atlético Mineiro": {
+    "main_colors": [
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 2,
+    "titles_copa_do_brasil": 2,
+    "titles_libertadores": 1,
+    "titles_mundial": 0,
+    "titles_sul_americana": 1,
+    "torcida_size_millions": 4,
+    "estadio": "Arena MRV",
+    "capacidade_estadio": 46000
+  },
+  "Bahia": {
+    "main_colors": [
+      "Blue",
+      "Red",
+      "White"
+    ],
+    "titles_brasileirao": 2,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 4,
+    "estadio": "Arena Fonte Nova",
+    "capacidade_estadio": 47000
+  },
+  "Botafogo": {
+    "main_colors": [
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 2,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 3,
+    "estadio": "Estádio Nilton Santos",
+    "capacidade_estadio": 46631
+  },
+  "Ceará": {
+    "main_colors": [
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 1,
+    "estadio": "Arena Castelão",
+    "capacidade_estadio": 63903
+  },
+  "Corinthians": {
+    "main_colors": [
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 7,
+    "titles_copa_do_brasil": 3,
+    "titles_libertadores": 1,
+    "titles_mundial": 2,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 24,
+    "estadio": "Neo Química Arena",
+    "capacidade_estadio": 49205
+  },
+  "Cruzeiro": {
+    "main_colors": [
+      "Blue",
+      "White"
+    ],
+    "titles_brasileirao": 4,
+    "titles_copa_do_brasil": 6,
+    "titles_libertadores": 2,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 4,
+    "estadio": "Mineirão",
+    "capacidade_estadio": 61846
+  },
+  "Flamengo": {
+    "main_colors": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 8,
+    "titles_copa_do_brasil": 4,
+    "titles_libertadores": 3,
+    "titles_mundial": 1,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 43,
+    "estadio": "Maracanã",
+    "capacidade_estadio": 73139
+  },
+  "Fluminense": {
+    "main_colors": [
+      "Green",
+      "Red",
+      "White"
+    ],
+    "titles_brasileirao": 4,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 1,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 1,
+    "estadio": "Maracanã",
+    "capacidade_estadio": 73139
+  },
+  "Fortaleza": {
+    "main_colors": [
+      "Blue",
+      "Red",
+      "White"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 1,
+    "estadio": "Arena Castelão",
+    "capacidade_estadio": 63903
+  },
+  "Grêmio": {
+    "main_colors": [
+      "Blue",
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 2,
+    "titles_copa_do_brasil": 5,
+    "titles_libertadores": 3,
+    "titles_mundial": 1,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 6,
+    "estadio": "Arena do Grêmio",
+    "capacidade_estadio": 60540
+  },
+  "Internacional": {
+    "main_colors": [
+      "Red",
+      "White"
+    ],
+    "titles_brasileirao": 3,
+    "titles_copa_do_brasil": 2,
+    "titles_libertadores": 2,
+    "titles_mundial": 1,
+    "titles_sul_americana": 1,
+    "torcida_size_millions": 3,
+    "estadio": "Beira-Rio",
+    "capacidade_estadio": 50128
+  },
+  "Juventude": {
+    "main_colors": [
+      "Green",
+      "White"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 0.3,
+    "estadio": "Alfredo Jaconi",
+    "capacidade_estadio": 23519
+  },
+  "Mirassol": {
+    "main_colors": [
+      "Yellow",
+      "Green"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 0.1,
+    "estadio": "Campos Maia",
+    "capacidade_estadio": 15000
+  },
+  "Palmeiras": {
+    "main_colors": [
+      "Green",
+      "White"
+    ],
+    "titles_brasileirao": 12,
+    "titles_copa_do_brasil": 4,
+    "titles_libertadores": 3,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 13,
+    "estadio": "Allianz Parque",
+    "capacidade_estadio": 43713
+  },
+  "Red Bull Bragantino": {
+    "main_colors": [
+      "Red",
+      "White",
+      "Black"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 0.5,
+    "estadio": "Nabi Abi Chedid",
+    "capacidade_estadio": 17724
+  },
+  "Santos": {
+    "main_colors": [
+      "White",
+      "Black"
+    ],
+    "titles_brasileirao": 8,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 3,
+    "titles_mundial": 2,
+    "titles_sul_americana": 1,
+    "torcida_size_millions": 4,
+    "estadio": "Vila Belmiro",
+    "capacidade_estadio": 16798
+  },
+  "São Paulo": {
+    "main_colors": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "titles_brasileirao": 6,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 3,
+    "titles_mundial": 3,
+    "titles_sul_americana": 1,
+    "torcida_size_millions": 12,
+    "estadio": "Morumbi",
+    "capacidade_estadio": 66795
+  },
+  "Sport": {
+    "main_colors": [
+      "Red",
+      "Black"
+    ],
+    "titles_brasileirao": 1,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 2,
+    "estadio": "Ilha do Retiro",
+    "capacidade_estadio": 32983
+  },
+  "Vasco da Gama": {
+    "main_colors": [
+      "Black",
+      "White",
+      "Red",
+      "Yellow"
+    ],
+    "titles_brasileirao": 4,
+    "titles_copa_do_brasil": 1,
+    "titles_libertadores": 1,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 6,
+    "estadio": "São Januário",
+    "capacidade_estadio": 21880
+  },
+  "Vitória": {
+    "main_colors": [
+      "Red",
+      "Black"
+    ],
+    "titles_brasileirao": 0,
+    "titles_copa_do_brasil": 0,
+    "titles_libertadores": 0,
+    "titles_mundial": 0,
+    "titles_sul_americana": 0,
+    "torcida_size_millions": 1,
+    "estadio": "Barradão",
+    "capacidade_estadio": 30000
+  }
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/guerrafoot/assets/react.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elifoot VMJ - Simulador de Futebol</title>
+    <meta name="description" content="Simulador de futebol completo com gerenciamento de escalação, formações táticas e campeonatos" />
+    <meta name="keywords" content="futebol, simulador, tática, escalação, campeonato" />
+    <meta name="author" content="Elifoot VMJ" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rmumme84.github.io/guerrafoot/" />
+    <meta property="og:title" content="Elifoot VMJ - Simulador de Futebol" />
+    <meta property="og:description" content="Simulador de futebol completo com gerenciamento de escalação, formações táticas e campeonatos" />
+    <meta property="og:image" content="https://rmumme84.github.io/guerrafoot/assets/react.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://rmumme84.github.io/guerrafoot/" />
+    <meta property="twitter:title" content="Elifoot VMJ - Simulador de Futebol" />
+    <meta property="twitter:description" content="Simulador de futebol completo com gerenciamento de escalação, formações táticas e campeonatos" />
+    <meta property="twitter:image" content="https://rmumme84.github.io/guerrafoot/assets/react.svg" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/guerrafoot/assets/react.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/guerrafoot/assets/react.svg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/guerrafoot/assets/react.svg" />
+    
+    <!-- Preload crítico -->
+    <link rel="preload" href="/guerrafoot/times2025.json" as="fetch" type="application/json" crossorigin />
+    <link rel="preload" href="/guerrafoot/players2025.json" as="fetch" type="application/json" crossorigin />
+    
+    <style>
+      /* Loading screen styles */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #1565c0 0%, #2e7d32 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: 'Inter', system-ui, sans-serif;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      #loading-screen.fade-out {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      .loading-logo {
+        width: 80px;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        margin-bottom: 24px;
+        animation: pulse 2s infinite;
+      }
+      
+      .loading-text {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      
+      .loading-subtitle {
+        font-size: 16px;
+        opacity: 0.8;
+        margin-bottom: 32px;
+      }
+      
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Prevent flash of unstyled content */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', system-ui, sans-serif;
+        background: #f2f4f7;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+    <script type="module" crossorigin src="/guerrafoot/assets/index-T_X-wThj.js"></script>
+    <link rel="stylesheet" crossorigin href="/guerrafoot/assets/index-Botyeojt.css">
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="loading-logo">⚽</div>
+      <div class="loading-text">Elifoot VMJ</div>
+      <div class="loading-subtitle">Carregando simulador de futebol...</div>
+      <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- React App -->
+    <div id="root"></div>
+    
+    <!-- Module Script -->
+    
+    <!-- Remove loading screen after app loads -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          const loadingScreen = document.getElementById('loading-screen');
+          if (loadingScreen) {
+            loadingScreen.classList.add('fade-out');
+            setTimeout(function() {
+              loadingScreen.remove();
+            }, 500);
+          }
+        }, 1000); // Show loading for at least 1 second
+      });
+      
+      // Fallback - remove loading screen after 5 seconds regardless
+      setTimeout(function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+          loadingScreen.remove();
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>
